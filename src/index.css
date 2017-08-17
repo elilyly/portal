@@ -3,3 +3,85 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.nav {
+  background-color: #77D7A9;
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #0A8265;
+  color: black;
+}
+
+.nav a.active {
+    background-color: #0A8265;
+    color: white;
+}
+
+.nav a.logout {
+  float: right;
+}
+
+.profileCard {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+}
+
+.container {
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container::after {
+  content: "";
+  display: table;
+}
+
+.info {
+  color: grey;
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 50%;
+  font-size: 16px;
+}
+
+a {
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.ApptContainer {
+  position: absolute;
+  left: 550px;
+   top: 10%;
+   text-align: center;
+   font-size: 15px;
+     width: 450px;
+     border: 1px solid #000;
+     padding: 10px;
+}
