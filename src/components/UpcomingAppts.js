@@ -4,9 +4,9 @@ import ModalFeature from './ModalFeature'
 import { Switch, Route, Link } from 'react-router-dom'
 
 export default class UpcomingAppts extends Component {
+//Created a table to show each Appointment
 
   render() {
-
     return (
       <div className="apptTable">
         <h2>Upcoming Appointments</h2>

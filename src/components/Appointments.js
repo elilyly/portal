@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import SideNav, {MenuIcon} from 'react-simple-sidenav';
+// used a sideNav bar to show past appointment details
 
 export default class Appointments extends Component {
   constructor(){
@@ -13,7 +14,6 @@ export default class Appointments extends Component {
     return (
       <div>
         <MenuIcon onClick={() => this.setState({showNav: true})}/>
-
         <SideNav
           showNav = {this.state.showNav}
           onHideNav = {() => this.setState({showNav: false})}

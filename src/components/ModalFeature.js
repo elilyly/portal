@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Modal, {closeStyle} from 'simple-react-modal';
+//Used a package that allows for a hover effect
 
 export default class ModalFeature extends Component {
   constructor(){
