@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import UpcomingAppts from './UpcomingAppts';
+import { BrowserRouter as  Switch, Route } from 'react-router-dom';
+// import Appointments from './Appointments'
 
 export default class Profile extends Component {
 
@@ -8,7 +10,7 @@ export default class Profile extends Component {
       <div className="container">
         <div className="profileCard">
           <h2>Welcome back, Kit Kat</h2>
-          <img src="https://www.petfinder.com/wp-content/uploads/2012/11/140272627-grooming-needs-senior-cat-632x475.jpg" width="300" height="250" />
+          <img src="https://www.petfinder.com/wp-content/uploads/2012/11/140272627-grooming-needs-senior-cat-632x475.jpg" alt="" width="300" height="250" />
           <div className="container">
             <h1>Kit Kat</h1>
             <h3>Age: 32 </h3>
@@ -16,7 +18,7 @@ export default class Profile extends Component {
             <p><button>Edit Profile</button></p>
           </div>
         </div>
-          <UpcomingAppts />
+        <UpcomingAppts />
       </div>
     )
   }
